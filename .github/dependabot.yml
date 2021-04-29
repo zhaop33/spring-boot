@@ -1,0 +1,220 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.codehaus.groovy:groovy-xml
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-testng
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-test
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-templates
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-swing
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-sql
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-servlet
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-nio
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-jsr223
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-json
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-jmx
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-groovysh
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-groovydoc
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-docgenerator
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-console
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-bsf
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-ant
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy-all
+    versions:
+    - 3.0.8
+  - dependency-name: org.codehaus.groovy:groovy
+    versions:
+    - 3.0.8
+  - dependency-name: org.elasticsearch.client:elasticsearch-rest-high-level-client
+    versions:
+    - 7.11.2
+    - 7.12.0
+  - dependency-name: org.elasticsearch.client:elasticsearch-rest-client
+    versions:
+    - 7.11.2
+    - 7.12.0
+  - dependency-name: org.elasticsearch.plugin:transport-netty4-client
+    versions:
+    - 7.11.2
+    - 7.12.0
+  - dependency-name: org.elasticsearch.client:transport
+    versions:
+    - 7.11.2
+    - 7.12.0
+  - dependency-name: org.elasticsearch:elasticsearch
+    versions:
+    - 7.11.2
+    - 7.12.0
+  - dependency-name: io.undertow:undertow-websockets-jsr
+    versions:
+    - 2.2.3.Final
+    - 2.2.4.Final
+    - 2.2.5.Final
+  - dependency-name: io.undertow:undertow-servlet
+    versions:
+    - 2.2.3.Final
+    - 2.2.4.Final
+    - 2.2.5.Final
+  - dependency-name: io.undertow:undertow-core
+    versions:
+    - 2.2.3.Final
+    - 2.2.4.Final
+    - 2.2.5.Final
+  - dependency-name: org.apache.ant:ant-launcher
+    versions:
+    - 1.10.9
+  - dependency-name: org.apache.ant:ant
+    versions:
+    - 1.10.9
+  - dependency-name: org.apache.activemq:activemq-web
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-stomp
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-spring
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-shiro
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-runtime-config
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-run
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-ra
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-pool
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-partition
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-osgi
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-openwire-legacy
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-openwire-generator
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-mqtt
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-log4j-appender
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-leveldb-store
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-karaf
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-kahadb-store
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-jms-pool
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-jdbc-store
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-jaas
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-http
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-console
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-client
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-camel
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-broker
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-blueprint
+    versions:
+    - 5.16.1
+  - dependency-name: org.apache.activemq:activemq-amqp
+    versions:
+    - 5.16.1
+  - dependency-name: org.hibernate.validator:hibernate-validator-annotation-processor
+    versions:
+    - 7.0.0.Final
+  - dependency-name: org.hibernate.validator:hibernate-validator
+    versions:
+    - 7.0.0.Final
+  - dependency-name: org.springframework.amqp:spring-rabbit-test
+    versions:
+    - 2.1.7.RELEASE
+  - dependency-name: org.springframework.amqp:spring-rabbit-junit
+    versions:
+    - 2.1.7.RELEASE
+  - dependency-name: org.springframework.amqp:spring-rabbit
+    versions:
+    - 2.1.7.RELEASE
+  - dependency-name: org.springframework.amqp:spring-amqp
+    versions:
+    - 2.1.7.RELEASE
+  - dependency-name: org.springframework.ws:spring-xml
+    versions:
+    - 3.0.7.RELEASE
+  - dependency-name: org.springframework.ws:spring-ws-test
+    versions:
+    - 3.0.7.RELEASE
+  - dependency-name: org.springframework.ws:spring-ws-support
+    versions:
+    - 3.0.7.RELEASE
+  - dependency-name: org.springframework.ws:spring-ws-security
+    versions:
+    - 3.0.7.RELEASE
+  - dependency-name: org.springframework.ws:spring-ws-core
+    versions:
+    - 3.0.7.RELEASE
